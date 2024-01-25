@@ -1,0 +1,9 @@
+@startuml "First Diagram"
+
+' Including initial library for containers.
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+' Initial code
+System("System", "System2", "System Desc 2")
+
+@enduml
